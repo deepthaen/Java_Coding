@@ -1,0 +1,97 @@
+Problem Solving ::
+
+Basic & Advance
+
+1.Power of a Number (dont use inbuilt Math.power()) — 2^4 =32 - Y
+2.Sqrt of Number (Dont use inbuilt math.sqrt()) - N
+
+
+String Problems ::
+
+1.Replace only number [0-9] - Y
+2.Replace only Characters [a-z A-Z] - Y
+3.Replace only Special characters [!@#$%^&*(] - Y
+4.Check String is integer - N
+5.Characters to Ascii (Dont use inbuilt) - Y
+6.Ascii to character (Dont use inbuilt) - N
+7.Reverse String (Dont use StringBuilder.reverser()) - Y
+8.Check string is anagram (a =“Deeptha” b=“deeptha”) - y
+9.Check String is palindrom (MADAM) - Y
+10.Duplicates characters in string (get count) - y
+11.Duplicate characters in string (print characters) - y
+12.Reverse order of the words - y
+
+Int problems::
+
+1.Reverse Integer  - y
+2.Fibonic - Y
+3.Palindrom number - y
+4.Binary to integer - N
+5.Integer to binary - N
+6.Factorial of number -y
+7.Swap 2 numbers - y
+8.Prime number - Y
+9.Even or odd - Y
+
+Arrays
+
+1.Reverse array - y
+2.Find duplicates (Count) - y
+3.Find duplicates numbers - Y
+4.Left shift array - Y
+5.Right shift array - Y
+6.Find missing number - Y
+7.Find maximum sub array - y
+8.Prefix of array (Sum of n number) - y
+9.Sum of natural number -
+
+Common Questions ::
+
+1.Sort array
+2.Find duplicates
+3.Reverse linked list
+4.Implement linked list
+5.Find index of a number in LL
+6.Find length of LL
+7.Delete a number in LL
+8.Implement stack
+9.Reverse stack
+10.Find minimum Number in stack
+11.Implement Queue
+12.Set
+13.Find a number using Binary search (BS)
+
+Public void sum_Prefix(int[] N){
+Int len = N.length;
+int[] newarr = new int[len];
+newarr[0]=N[0];
+for(int I=1;i<len;i++){
+newarr[I]=newarr[I-1]+N[0];
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
